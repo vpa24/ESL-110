@@ -1,0 +1,147 @@
+@import url("https://fonts.cdnfonts.com/css/handwriting");
+
+/* Fill viewport horizontally */
+.wy-nav-content {
+  max-width: inherit;
+}
+
+h2 {
+  color: #0173bc;
+}
+
+h3 {
+  color: #2aaa8a;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+strong,
+.bold {
+  color: #b25567;
+  font-weight: bold;
+}
+
+em {
+  color: #b25567;
+}
+
+.center h2,
+.center h3 {
+  text-align: center;
+}
+.center img {
+  margin-bottom: 3em !important;
+}
+.info {
+  border-radius: 4px;
+  padding: 0.7em;
+  margin-bottom: 2em;
+}
+.ml-2em {
+  margin-left: 2em;
+}
+
+th {
+  background-color: #2980b9;
+  color: #fff;
+}
+
+.color-blue {
+  color: #2980b9;
+}
+
+ul li {
+  list-style-type: circle !important;
+}
+.rst-content a:visited {
+  color: #2980b9 !important;
+}
+.txt-indent-2em {
+  text-indent: 2em;
+}
+
+.flex-row-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.flex-row-container > .flex-row-item {
+  flex: 1 1 30%; /*grow | shrink | basis */
+}
+
+h1 {
+  background: linear-gradient(90deg, #8250df, #d42a32);
+  background-clip: text;
+  -webkit-background-clip: text;
+  display: inline-block;
+  font-weight: bold;
+  color: transparent;
+  line-height: normal;
+}
+
+h2 {
+  font-weight: 600;
+  background: linear-gradient(92.7deg, #56d364 -1.37%, #2872ff 70.71%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  display: inline-block;
+  color: transparent;
+  margin: 5px 0;
+  line-height: initial !important;
+}
+
+#welcome-to-the-documentation-for-esl47 li.toctree-l2 {
+  display: none;
+}
+
+.para_title {
+  color: #f778ba;
+  font-weight: 500;
+}
+
+.toctree-wrapper > ul {
+  padding-left: 2rem !important;
+}
+
+.admonition p.admonition-title ~ *,
+div.admonition p.admonition-title ~ * {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding: 0 1.4rem;
+}
+
+.sub-title {
+  text-align: center;
+  color: #2aaa8a;
+  font-family: "Handwriting", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+img.align-center {
+  margin-bottom: 2rem;
+}
+
+.typing_container {
+  position: relative;
+}
+
+.text {
+  font-family: "Roboto Mono", monospace;
+  font-size: 2rem;
+  text-align: center;
+  color: #d03781;
+}
